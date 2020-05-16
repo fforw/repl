@@ -1,0 +1,11 @@
+{
+    "name": "@fforw/repl",
+    "version": "0.0.1",
+    "description": "Extended node repl",
+    "main": "src/index.js",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "shelljs": "^0.8.3"
+    }
+}
