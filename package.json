@@ -3,6 +3,9 @@
     "version": "0.0.2",
     "description": "Extended node repl",
     "main": "src/index.js",
+    "bin" : {
+        "ffrepl" : "./src/index.js"
+    },
     "license": "Apache-2.0",
     "dependencies": {
         "chalk": "^2.4.2",
