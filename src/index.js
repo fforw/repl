@@ -27,6 +27,8 @@ const replServer = repl.start({
     prompt: "> "
 });
 
+replServer.setupHistory(historyFile, (err,result) => 0)
+
 Object.assign(replServer.context, ctx);
 
 
